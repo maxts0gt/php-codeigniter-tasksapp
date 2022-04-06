@@ -12,6 +12,8 @@ class Tasks extends BaseController
 
         $data = $model->findAll();
 
+
+
         return view("Tasks/index", ["tasks" => $data]);
     }
 }
